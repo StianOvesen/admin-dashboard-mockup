@@ -4,7 +4,7 @@
     --header-color: #202225;
     --header-text-color: white;
     --header-button-color: #F24B88;
-    --header-button-color-hover: #ff96bc;
+    --header-button-color-hover: #ff015e;
     --header-border-color: #404040;
     
     /*  SIDEBAR  */
@@ -176,10 +176,11 @@ a:visited {
     border-radius: 30px;
     margin-left: 20px;
     padding: 10px 25px;
+    border: 2px solid transparent;
 }
 
 .menu-button:hover {
-    background-color: var(--header-button-color-hover);
+    border: 2px solid white;
 }
 
 .menu-button:visited {
@@ -315,6 +316,10 @@ ul.menu {
 
 .card-icons {
     color: var(--card-icon-color);
+}
+
+.card-icons:hover {
+    color: var(--main-content-text-color)
 }
 
 /*  ANNOUNCEMENTS  */
